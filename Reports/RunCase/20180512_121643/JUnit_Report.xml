@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RunCase" time="8" tests="1" failures="0" errors="0">
+   <testsuite name="RunCase" tests="1" failures="0" errors="0" time="8" timestamp="2018-05-12 12:16:46" hostname="Administrator - XSHD--20161124D" id="Test Suites/RunCase">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\katalon_Automation\\katalon-studio-official-resources\\Reports\\RunCase\\20180512_121643"/>
+         <property name="logFiles" value="E:\\katalon_Automation\\katalon-studio-official-resources\\Reports\\RunCase\\20180512_121643\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - XSHD--20161124D"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.117"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="95e115de393d051e8181860c3f2da77c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/DemoCase" classname="Test Cases/DemoCase" status="PASSED">
+         <system-out><![CDATA[2018-05-12 12:16:47 - [TEST_CASE][PASSED] - Test Cases/DemoCase: Test Cases/DemoCase
+
+2018-05-12 12:16:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'www.google.cn'
+
+2018-05-12 12:16:53 - [MESSAGE][PASSED] - Browser is opened with url: 'www.google.cn'
+
+2018-05-12 12:16:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-12 12:16:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-12 12:16:46 - [TEST_SUITE][PASSED] - RunCase: Test Cases/DemoCase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
