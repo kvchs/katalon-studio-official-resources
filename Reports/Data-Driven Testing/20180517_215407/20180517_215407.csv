@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Data-Driven Testing,Chrome 66.0.3359.117,,2018-05-17 21:54:10,2018-05-17 21:54:55,45.495s,FAILED
+,,,,,,
+Test Cases/Data-Driven Testing,Chrome 66.0.3359.117,,2018-05-17 21:54:10,2018-05-17 21:54:54,43.158s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Data-Driven Testing),Chrome 66.0.3359.117,,2018-05-17 21:54:11,2018-05-17 21:54:11,0.021s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Chrome 66.0.3359.117,,2018-05-17 21:54:11,2018-05-17 21:54:54,42.561s,FAILED

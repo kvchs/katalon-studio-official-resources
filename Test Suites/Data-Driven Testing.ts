@@ -4,8 +4,8 @@
    <name>Data-Driven Testing</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-17T18:15:43</lastRun>
-   <mailRecipient></mailRecipient>
+   <lastRun>2018-05-17T21:54:07</lastRun>
+   <mailRecipient>1490337751@qq.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -21,7 +21,7 @@
          <id>6fb4eedb-d0cc-414e-978c-95767580c6d7</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/Data-Driven Testing</testDataId>
       </testDataLink>

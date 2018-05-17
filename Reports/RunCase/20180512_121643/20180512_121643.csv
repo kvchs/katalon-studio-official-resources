@@ -1,6 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-RunCase,Chrome 66.0.3359.117,,2018-05-12 12:16:46,2018-05-12 12:16:54,8.288s,PASSED
-,,,,,,
-Test Cases/DemoCase,Chrome 66.0.3359.117,,2018-05-12 12:16:47,2018-05-12 12:16:54,7.405s,PASSED
-openBrowser,Chrome 66.0.3359.117,,2018-05-12 12:16:47,2018-05-12 12:16:53,5.658s,PASSED
-closeBrowser,Chrome 66.0.3359.117,,2018-05-12 12:16:53,2018-05-12 12:16:54,1.223s,PASSED

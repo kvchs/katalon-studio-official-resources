@@ -22,6 +22,7 @@ while(data.next()){//遍历结果集
 
 database.closeDatabaseConnection()
 
+//println(username +"\t"+password+"\t");
 
 
 /**
