@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Data-Driven Testing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>298ebaa6-81b8-4df8-8d7a-9e8921a69cfc</testCaseGuid>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>703da678-7acf-43e8-98c9-c8ab5e38b52b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>16d01a25-3985-47e9-872e-0056364cf015</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

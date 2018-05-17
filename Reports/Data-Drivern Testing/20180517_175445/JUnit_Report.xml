@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data-Drivern Testing" time="45" tests="3" failures="0" errors="0">
+   <testsuite name="Data-Drivern Testing" tests="3" failures="0" errors="0" time="45" timestamp="2018-05-17 17:54:48" hostname="charleychen - CNCDUW0045.aaxischina.net" id="Test Suites/Data-Drivern Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\Data-Drivern Testing\\20180517_175445"/>
+         <property name="logFiles" value="D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\Data-Drivern Testing\\20180517_175445\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="charleychen - CNCDUW0045.aaxischina.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="172.17.118.89"/>
+         <property name="sessionId" value="68224cfab4ee4779e72580c37a4fc0d0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=MANUAL_CONFIG, proxyServerType=HTTP, password=, proxyServerAddress=10.10.106.111, proxyServerPort=3128}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Data-Driven Testing" classname="Test Cases/Data-Driven Testing" status="PASSED">
+         <system-out><![CDATA[2018-05-17 17:54:49 - [TEST_CASE][PASSED] - Test Cases/Data-Driven Testing: Test Cases/Data-Driven Testing
+
+2018-05-17 17:54:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-05-17 17:55:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-05-17 17:55:04 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Data-Drivern Testing/input_UserName'
+
+2018-05-17 17:55:05 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Data-Drivern Testing/input_UserName'
+
+2018-05-17 17:55:05 - [TEST_STEP][PASSED] - setText: Text 'adminabc' is set on object 'Object Repository/Data-Drivern Testing/input_Password'
+
+2018-05-17 17:55:05 - [MESSAGE][PASSED] - Text 'adminabc' is set on object 'Object Repository/Data-Drivern Testing/input_Password'
+
+2018-05-17 17:55:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Data-Drivern Testing/btn_Login' is clicked on
+
+2018-05-17 17:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Data-Drivern Testing/btn_Login' is clicked on
+
+2018-05-17 17:55:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Data-Drivern Testing/btn_MakeAppointment' is present
+
+2018-05-17 17:55:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-17 17:55:07 - [MESSAGE][PASSED] - Object 'Object Repository/Data-Drivern Testing/btn_MakeAppointment' is present
+
+2018-05-17 17:55:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-17 17:55:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven Testing" classname="Test Cases/Data-Driven Testing" status="PASSED">
+         <system-out><![CDATA[2018-05-17 17:55:10 - [TEST_CASE][PASSED] - Test Cases/Data-Driven Testing: Test Cases/Data-Driven Testing
+
+2018-05-17 17:55:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-05-17 17:55:20 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-05-17 17:55:20 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Data-Drivern Testing/input_UserName'
+
+2018-05-17 17:55:21 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Data-Drivern Testing/input_UserName'
+
+2018-05-17 17:55:21 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Data-Drivern Testing/input_Password'
+
+2018-05-17 17:55:22 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Data-Drivern Testing/input_Password'
+
+2018-05-17 17:55:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Data-Drivern Testing/btn_Login' is clicked on
+
+2018-05-17 17:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Data-Drivern Testing/btn_Login' is clicked on
+
+2018-05-17 17:55:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Data-Drivern Testing/btn_MakeAppointment' is present
+
+2018-05-17 17:55:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-17 17:55:23 - [MESSAGE][PASSED] - Object 'Object Repository/Data-Drivern Testing/btn_MakeAppointment' is present
+
+2018-05-17 17:55:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-17 17:55:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven Testing" classname="Test Cases/Data-Driven Testing" status="PASSED">
+         <system-out><![CDATA[2018-05-17 17:55:24 - [TEST_CASE][PASSED] - Test Cases/Data-Driven Testing: Test Cases/Data-Driven Testing
+
+2018-05-17 17:55:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-05-17 17:55:30 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-05-17 17:55:30 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Data-Drivern Testing/input_UserName'
+
+2018-05-17 17:55:31 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Data-Drivern Testing/input_UserName'
+
+2018-05-17 17:55:31 - [TEST_STEP][PASSED] - setText: Text 'testpwd' is set on object 'Object Repository/Data-Drivern Testing/input_Password'
+
+2018-05-17 17:55:31 - [MESSAGE][PASSED] - Text 'testpwd' is set on object 'Object Repository/Data-Drivern Testing/input_Password'
+
+2018-05-17 17:55:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Data-Drivern Testing/btn_Login' is clicked on
+
+2018-05-17 17:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Data-Drivern Testing/btn_Login' is clicked on
+
+2018-05-17 17:55:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Data-Drivern Testing/btn_MakeAppointment' is present
+
+2018-05-17 17:55:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-17 17:55:32 - [MESSAGE][PASSED] - Object 'Object Repository/Data-Drivern Testing/btn_MakeAppointment' is present
+
+2018-05-17 17:55:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-17 17:55:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-17 17:54:48 - [TEST_SUITE][PASSED] - Data-Drivern Testing: Test Cases/Data-Driven Testing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

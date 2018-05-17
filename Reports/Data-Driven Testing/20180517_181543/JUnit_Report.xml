@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data-Driven Testing" time="56" tests="1" failures="2" errors="0">
+   <testsuite name="Data-Driven Testing" tests="1" failures="2" errors="0" time="56" timestamp="2018-05-17 18:15:47" hostname="charleychen - CNCDUW0045.aaxischina.net" id="Test Suites/Data-Driven Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\Data-Driven Testing\\20180517_181543"/>
+         <property name="logFiles" value="D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\Data-Driven Testing\\20180517_181543\\execution0.log"/>
+         <property name="attachments" value="D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\Data-Driven Testing\\20180517_181543\\1526552168968.png, D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\Data-Driven Testing\\20180517_181543\\1526552169434.png, D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\Data-Driven Testing\\20180517_181543\\1526552202127.png, D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\Data-Driven Testing\\20180517_181543\\1526552202427.png"/>
+         <property name="hostName" value="charleychen - CNCDUW0045.aaxischina.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="172.17.118.89"/>
+         <property name="sessionId" value="52d5da5cdeb5994ffbac70e562d10b3e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=MANUAL_CONFIG, proxyServerType=HTTP, password=, proxyServerAddress=10.10.106.111, proxyServerPort=3128}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Data-Driven Testing" classname="Test Cases/Data-Driven Testing" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found)"/>
+         <system-out><![CDATA[2018-05-17 18:15:47 - [TEST_CASE][FAILED] - Test Cases/Data-Driven Testing: Test Cases/Data-Driven Testing FAILED because (of) Unable to verify object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found)
+
+2018-05-17 18:15:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-05-17 18:16:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-05-17 18:16:00 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Data-Driven Testing/input_UserName'
+
+2018-05-17 18:16:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Data-Driven Testing/input_UserName'
+
+2018-05-17 18:16:01 - [TEST_STEP][PASSED] - setText: Text 'adminabc' is set on object 'Object Repository/Data-Driven Testing/input_Password'
+
+2018-05-17 18:16:02 - [MESSAGE][PASSED] - Text 'adminabc' is set on object 'Object Repository/Data-Driven Testing/input_Password'
+
+2018-05-17 18:16:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Data-Driven Testing/btn_Login' is clicked on
+
+2018-05-17 18:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Data-Driven Testing/btn_Login' is clicked on
+
+2018-05-17 18:16:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-17 18:16:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-17 18:16:06 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found)
+
+2018-05-17 18:16:09 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found
+[[ATTACHMENT|D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\Data-Driven Testing\\20180517_181543\\1526552168968.png]]
+
+2018-05-17 18:16:09 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found)
+[[ATTACHMENT|D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\Data-Driven Testing\\20180517_181543\\1526552169434.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-17 18:15:47 - [TEST_CASE][FAILED] - Test Cases/Data-Driven Testing: Test Cases/Data-Driven Testing FAILED because (of) Unable to verify object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven Testing" classname="Test Cases/Data-Driven Testing" status="PASSED">
+         <system-out><![CDATA[2018-05-17 18:16:09 - [TEST_CASE][PASSED] - Test Cases/Data-Driven Testing: Test Cases/Data-Driven Testing
+
+2018-05-17 18:16:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-05-17 18:16:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-17 18:16:20 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-05-17 18:16:20 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Data-Driven Testing/input_UserName'
+
+2018-05-17 18:16:20 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Data-Driven Testing/input_UserName'
+
+2018-05-17 18:16:20 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Data-Driven Testing/input_Password'
+
+2018-05-17 18:16:21 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Data-Driven Testing/input_Password'
+
+2018-05-17 18:16:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Data-Driven Testing/btn_Login' is clicked on
+
+2018-05-17 18:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Data-Driven Testing/btn_Login' is clicked on
+
+2018-05-17 18:16:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-17 18:16:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-17 18:16:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present
+
+2018-05-17 18:16:25 - [MESSAGE][PASSED] - Object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present
+
+2018-05-17 18:16:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-17 18:16:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven Testing" classname="Test Cases/Data-Driven Testing" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found)"/>
+         <system-out><![CDATA[2018-05-17 18:16:26 - [TEST_CASE][FAILED] - Test Cases/Data-Driven Testing: Test Cases/Data-Driven Testing FAILED because (of) Unable to verify object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found)
+
+2018-05-17 18:16:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-05-17 18:16:34 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-05-17 18:16:34 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Data-Driven Testing/input_UserName'
+
+2018-05-17 18:16:35 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Data-Driven Testing/input_UserName'
+
+2018-05-17 18:16:35 - [TEST_STEP][PASSED] - setText: Text 'testpwd' is set on object 'Object Repository/Data-Driven Testing/input_Password'
+
+2018-05-17 18:16:35 - [MESSAGE][PASSED] - Text 'testpwd' is set on object 'Object Repository/Data-Driven Testing/input_Password'
+
+2018-05-17 18:16:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Data-Driven Testing/btn_Login' is clicked on
+
+2018-05-17 18:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Data-Driven Testing/btn_Login' is clicked on
+
+2018-05-17 18:16:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-17 18:16:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-17 18:16:40 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found)
+
+2018-05-17 18:16:42 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found
+[[ATTACHMENT|D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\Data-Driven Testing\\20180517_181543\\1526552202127.png]]
+
+2018-05-17 18:16:42 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found)
+[[ATTACHMENT|D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\Data-Driven Testing\\20180517_181543\\1526552202427.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-17 18:16:26 - [TEST_CASE][FAILED] - Test Cases/Data-Driven Testing: Test Cases/Data-Driven Testing FAILED because (of) Unable to verify object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-17 18:15:47 - [TEST_SUITE][FAILED] - Data-Driven Testing: Test Cases/Data-Driven Testing FAILED because (of) Unable to verify object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-17 18:15:47 - [TEST_SUITE][FAILED] - Data-Driven Testing: Test Cases/Data-Driven Testing FAILED because (of) Unable to verify object 'Object Repository/Data-Driven Testing/btn_MakeAppointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data-Driven Testing/btn_MakeAppointment' located by 'By.cssSelector: #btn-book-appointment' not found)]]></system-err>
+   </testsuite>
+</testsuites>
