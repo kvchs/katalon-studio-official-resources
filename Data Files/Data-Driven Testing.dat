@@ -8,7 +8,7 @@
    <dataFileGUID>222e1bcc-5e8e-4dec-b30b-4be98a3565f4</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>admin adminabc</data>
+   <data>John+Doe ThisIsNotAPassword</data>
    <data>John+Doe ThisIsNotAPassword</data>
    <data>test testpwd</data>
    <internalDataColumns>

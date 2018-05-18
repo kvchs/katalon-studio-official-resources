@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Document\\\\UploadFile.html'</initValue>
+      <name>UploadFile_Html_Path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Document\\\\Desert.jpg'</initValue>
+      <name>Image_Upload_Path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://spreadsheetpage.com/index.php/file/C35/P10/'</initValue>
+      <name>FileDownloadCheckingURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
