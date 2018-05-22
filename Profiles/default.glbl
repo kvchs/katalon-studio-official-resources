@@ -21,7 +21,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'\\\\Document\\\\MultiSelection_dropDown.html'</initValue>
       <name>MultiSelection_dropDown</name>
+=======
+      <initValue>'\\\\Document\\\\WebTable_Handling_Scenario1.html'</initValue>
+      <name>WebTable</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Document\\\\WebTable_Handling_Scenario2.html'</initValue>
+      <name>WebTable2</name>
+>>>>>>> branch 'master' of https://github.com/kvchs/katalon-studio-official-resources.git
    </GlobalVariableEntity>
 </GlobalVariableEntities>
