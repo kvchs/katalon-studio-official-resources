@@ -19,4 +19,14 @@
       <initValue>'http://spreadsheetpage.com/index.php/file/C35/P10/'</initValue>
       <name>FileDownloadCheckingURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Document\\\\WebTable_Handling_Scenario1.html'</initValue>
+      <name>WebTable</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Document\\\\WebTable_Handling_Scenario2.html'</initValue>
+      <name>WebTable2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

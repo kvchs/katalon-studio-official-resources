@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver as WebDriver
  
 //WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\How to Handle Alerts.html')
 
-WebUI.openBrowser('file:///D:/Entel/automation/katalon-studio-official-resources/Document/Alert.html')
+WebUI.openBrowser('file:///E:/katalon_Automation/katalon-studio-official-resources/Document/Alert.html')
 'Maximize the window of the browser'
  
 WebUI.maximizeWindow()
