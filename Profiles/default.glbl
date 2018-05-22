@@ -19,4 +19,9 @@
       <initValue>'http://spreadsheetpage.com/index.php/file/C35/P10/'</initValue>
       <name>FileDownloadCheckingURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Document\\\\MultiSelection_dropDown.html'</initValue>
+      <name>MultiSelection_dropDown</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
