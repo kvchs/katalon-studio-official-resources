@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_ JS</name>
+   <tag></tag>
+   <elementGuidId>422889d9-1b46-4118-ba31-71ba43a50a82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[href='http://www.amazon.com/gp/product/0596517742/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0596517742&amp;amp;linkCode=as2&amp;amp;tag=kaidez-20&amp;amp;linkId=DMIEK65EIJ33NXHM']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://www.amazon.com/gp/product/0596517742/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0596517742&amp;amp;linkCode=as2&amp;amp;tag=kaidez-20&amp;amp;linkId=DMIEK65EIJ33NXHM</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Handle Shadow DOM/object_allBooks</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+</WebElementEntity>

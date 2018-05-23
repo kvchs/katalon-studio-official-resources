@@ -6,32 +6,17 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'\\\\Document\\\\UploadFile.html'</initValue>
-      <name>UploadFile_Html_Path</name>
+      <initValue>3</initValue>
+      <name>ShortResponseTime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'\\\\Document\\\\Desert.jpg'</initValue>
-      <name>Image_Upload_Path</name>
+      <initValue>7</initValue>
+      <name>MediumResponseTime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://spreadsheetpage.com/index.php/file/C35/P10/'</initValue>
-      <name>FileDownloadCheckingURL</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-<<<<<<< HEAD
-      <initValue>'\\\\Document\\\\MultiSelection_dropDown.html'</initValue>
-      <name>MultiSelection_dropDown</name>
-=======
-      <initValue>'\\\\Document\\\\WebTable_Handling_Scenario1.html'</initValue>
-      <name>WebTable</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'\\\\Document\\\\WebTable_Handling_Scenario2.html'</initValue>
-      <name>WebTable2</name>
->>>>>>> branch 'master' of https://github.com/kvchs/katalon-studio-official-resources.git
+      <initValue>15</initValue>
+      <name>LongResponseTime</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -52,8 +52,14 @@ WebUI.closeBrowser()
 
 
 
-
-
+//'Open browser and navigate to a site that has upload control'
+//WebUI.openBrowser('http://the-internet.herokuapp.com/upload')
+// 
+//'Use Upload File keyword to deal with the dialog. Noted that the keyword will proceed to click on the Choose File button as specified'
+//WebUI.uploadFile(findTestObject('choosefile_button'), 'D:\\test-photo.png')
+// 
+//'Close browser'
+//WebUI.closeBrowser()
 
 
 
@@ -80,6 +86,21 @@ WebUI.closeBrowser()
 
 
 
+//Disable Chrome password manager?
+//
+//Hello, I wonder if it's possible to disable Chrome password manager?
+//
+//With Selenium we can do like:
+//
+//ChromeOptions options = new ChromeOptions();
+//
+////disable password manager
+//Map<String, Object> prefs = new HashMap<String, Object>();
+//prefs.put("credentials_enable_service", false);
+//prefs.put("profile.password_manager_enabled", false);
+//options.setExperimentalOption("prefs", prefs);
+//
+//caps.setCapability(ChromeOptions.CAPABILITY, options);
 
 
 

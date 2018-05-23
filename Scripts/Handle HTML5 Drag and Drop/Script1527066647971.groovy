@@ -1,22 +1,7 @@
- /**
- * Note: once a test step is added as any of the control statements, it will not be allowed to change into another keyword.
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- */ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import org.junit.After
-
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -34,81 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.w3schools.com/html/html5_draganddrop.asp')
 
-if (true) {
-    WebUI.acceptAlert()
+CustomKeywords.'com.module.utils.DragAndDropHelper.dragAndDrop'(findTestObject('Object Repository/Handle HTML5 Drag and Drop/img_DIV1'), findTestObject('Object Repository/Handle HTML5 Drag and Drop/section_Div2'))
 
-    WebUI.acceptAlert()
-} else if (0 == 0) {
-    WebUI.acceptAlert()
+WebUI.delay(GlobalVariable.MediumResponseTime)
 
-    WebUI.acceptAlert()
-} else {
-    WebUI.acceptAlert()
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Handle HTML5 Drag and Drop/section_Div2'), 'innerHTML', '<img src=\"img_w3slogo.gif\" draggable=\"true\" ondragstart=\"drag(event)\" id=\"drag1\" alt=\"W3Schools\">', 0)
 
-    WebUI.acceptAlert()
-
-    WebUI.acceptAlert()
-}
-
-WebUI.acceptAlert()
-
-switch ('a' == 'a') {
-    case 1:
-        break
-    case 2:
-        break
-    default:
-        break
-}
-
-for (def index : (0..0)) {
-    WebUI.acceptAlert()
-}
-
-WebUI.acceptAlert()
-
-while (true) {
-    WebUI.acceptAlert()
-}
-
-WebUI.acceptAlert()
-
-break
-
-continue
-
-return 
-
-WebUI.acceptAlert()
-
-
-
-try {
-	
-	WebUI.openBrowser('')
-	
-	WebUI.navigateToUrl('')
-	
-	if (WebUI.getText(findTestObject("")).length() < 0){
-		
-		throw new com.kms.katalon.core.exception.StepErrorException("value required")
-	}
-}
-catch (StepErrorException e) {
-	
-    throw new com.kms.katalon.core.exception.StepFailedException()
-	
-	this.println e
-} 
-
-catch (Exception e){
-	
-	this.println "this is a normal exception"
-}
-finally { 
-	
-	this.println "fix all steps"
-}
-
+WebUI.closeBrowser()
