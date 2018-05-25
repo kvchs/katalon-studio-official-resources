@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>New SOAP Request</name>
+   <name>DouBanBook</name>
    <tag></tag>
-   <elementGuidId>670ddd69-583c-42d7-b247-3be2f374409a</elementGuidId>
+   <elementGuidId>d1e452eb-cc79-4d10-8566-d425cacfe663</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
@@ -19,16 +19,24 @@
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>User-Agent</name>
+      <name>Accept-Charset</name>
       <type>Main</type>
       <value>utf-8</value>
    </httpHeaderProperties>
-   <restRequestMethod></restRequestMethod>
-   <restUrl></restUrl>
-   <serviceType>SOAP</serviceType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>User-Agent</name>
+      <type>Main</type>
+      <value>Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0</value>
+   </httpHeaderProperties>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>https://api.douban.com/v2/book/1220562</restUrl>
+   <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
-   <soapRequestMethod>SOAP</soapRequestMethod>
-   <soapServiceFunction>Add</soapServiceFunction>
-   <wsdlAddress>http://www.dneonline.com/calculator.asmx?WSDL</wsdlAddress>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceFunction></soapServiceFunction>
+   <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

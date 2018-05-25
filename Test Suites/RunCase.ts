@@ -4,7 +4,7 @@
    <name>RunCase</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-12T14:13:09</lastRun>
+   <lastRun>2018-05-25T14:58:15</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

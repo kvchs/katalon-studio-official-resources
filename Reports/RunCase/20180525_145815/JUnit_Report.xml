@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RunCase" time="12" tests="1" failures="0" errors="0">
+   <testsuite name="RunCase" tests="1" failures="0" errors="0" time="12" timestamp="2018-05-25 14:58:19" hostname="charleychen - CNCDUW0045.aaxischina.net" id="Test Suites/RunCase">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\RunCase\\20180525_145815"/>
+         <property name="logFiles" value="D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\RunCase\\20180525_145815\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="charleychen - CNCDUW0045.aaxischina.net"/>
+         <property name="hostAddress" value="172.17.118.219"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+      </properties>
+      <testcase name="Test Cases/DemoCase" classname="Test Cases/DemoCase" status="PASSED">
+         <system-out><![CDATA[2018-05-25 14:58:19 - [TEST_CASE][PASSED] - Test Cases/DemoCase: Test Cases/DemoCase
+
+2018-05-25 14:58:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ProxySetting.sampleBeforeTestCase(...)' completed.
+
+2018-05-25 14:58:20 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-25 14:58:20 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ProxySetting.sampleBeforeTestCase(...)' completed.
+
+2018-05-25 14:58:20 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-05-25 14:58:20 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-05-25 14:58:20 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-05-25 14:58:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-05-25 14:58:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-25 14:58:31 - [MESSAGE][PASSED] - Browser is closed
+
+2018-05-25 14:58:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ProxySetting.sampleAfterTestCase(...)' completed.
+
+2018-05-25 14:58:31 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-25 14:58:31 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ProxySetting.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-25 14:58:19 - [TEST_SUITE][PASSED] - RunCase: Test Cases/DemoCase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

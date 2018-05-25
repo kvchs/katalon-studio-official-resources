@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RunCase,,,2018-05-25 14:53:34,2018-05-25 14:53:47,12.842s,PASSED
+,,,,,,
+Test Cases/DemoCase,,,2018-05-25 14:53:35,2018-05-25 14:53:47,11.545s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-05-25 14:53:35,2018-05-25 14:53:36,0.022s,PASSED
+openBrowser,,,2018-05-25 14:53:36,2018-05-25 14:53:36,0.006s,NOT_RUN
+delay,,,2018-05-25 14:53:36,2018-05-25 14:53:46,10.093s,PASSED
+closeBrowser,,,2018-05-25 14:53:46,2018-05-25 14:53:47,1.003s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-05-25 14:53:47,2018-05-25 14:53:47,0.027s,PASSED
