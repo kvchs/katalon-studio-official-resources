@@ -19,9 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.openBrowser('www.google.cn')
 
-WebUI.delay(10)
 
-WebUI.closeBrowser()
+WebUI.verifyCheckpoint(findCheckpoint("Checkpoints/testCheckpoint"), false)
+
+println "pass" + "+++++++++++++++++++++++++++++++++++++"
+
+
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>testCheckpoint</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>C:\Users\charleychen\Desktop\testCheckPort.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>Sheet1</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2018-05-30T10:59:45.867</taken-date>
+   <column-names>
+      <column-name>username</column-name>
+      <column-name>password</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "char",
+      "checked": true
+    },
+    {
+      "value": "adca",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "adcd",
+      "checked": true
+    },
+    {
+      "value": "123",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
