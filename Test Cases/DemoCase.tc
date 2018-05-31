@@ -3,6 +3,16 @@
    <description></description>
    <name>DemoCase</name>
    <tag></tag>
-   <comment></comment>
+   <comment>ddd
+ddd
+ddd
+</comment>
    <testCaseGuid>94928df6-e533-495f-b264-f3e4584976a0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a940a0f0-e21b-489f-a118-da5efab16770</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
 </TestCaseEntity>

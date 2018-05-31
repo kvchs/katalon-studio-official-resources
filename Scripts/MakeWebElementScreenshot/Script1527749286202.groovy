@@ -19,15 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('ddd')
+WebUI.openBrowser('http://demo.automationtesting.in/Register.html')
 
-WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/testCheckpoint'), false)
+WebUI.maximizeWindow()
 
-WebUI.comment('ddd')
+WebUI.delay(5)
 
-println('pass' + '+++++++++++++++++++++++++++++++++++++')
+//CustomKeywords.'com.module.utils.ScreenshotHelper.takeWebElementScreenshot'(findTestObject('Object Repository/MakeWebElementScreenshot/icon_Logo'))
 
-WebUI.comment('ddd')
+CustomKeywords.'com.module.utils.ScreenshotHelper.takeWebElementScreenshot'(findTestObject('MakeWebElementScreenshot/icon_Logo'))
 
-WebUI.comment('java')
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 

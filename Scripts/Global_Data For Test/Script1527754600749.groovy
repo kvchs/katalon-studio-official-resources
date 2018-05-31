@@ -19,15 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('ddd')
+def info = ['url': '', 'firstName': '', 'lastName': '', 'email': '', 'phoneNumber': '']
 
-WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/testCheckpoint'), false)
+def data = TestDataFactory.findTestData("Data Files/Get Datas From Excel File")
 
-WebUI.comment('ddd')
+info.url = data.getValue(1, 1)    //列，行的排序规则
 
-println('pass' + '+++++++++++++++++++++++++++++++++++++')
+info.firstName = data.getValue(1, 2)
 
-WebUI.comment('ddd')
+info.lastName = data.getValue(2, 2)
 
-WebUI.comment('java')
+info.email = data.getValue(1, 3)
 
+info.phoneNumber = data.getValue(2, 3)
+
+return info
+
+println info+ '++++++++++++++++++++++++++++++++++++'

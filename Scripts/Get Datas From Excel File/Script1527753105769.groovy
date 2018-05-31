@@ -4,6 +4,7 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+import com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword as CallTestCaseKeyword
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -19,15 +20,32 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('ddd')
+def info = WebUI.callTestCase(findTestCase('Global_Data For Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/testCheckpoint'), false)
+def url = info.url
 
-WebUI.comment('ddd')
+def firstName = info.firstName
 
-println('pass' + '+++++++++++++++++++++++++++++++++++++')
+def lastName = info.lastName
 
-WebUI.comment('ddd')
+def email = info.email
 
-WebUI.comment('java')
+def phoneNumber = info.phoneNumber
+
+println url + "++++++++++++++++++++++++++++"
+
+
+WebUI.openBrowser(url)
+
+WebUI.sendKeys(findTestObject('Object Repository/Get Datas From Excel File/input_FirstName'), firstName)
+
+WebUI.sendKeys(findTestObject('Object Repository/Get Datas From Excel File/input_LastName'), lastName)
+
+WebUI.sendKeys(findTestObject('Object Repository/Get Datas From Excel File/input_Email'), email)
+
+WebUI.sendKeys(findTestObject('Object Repository/Get Datas From Excel File/input_PhoneNumber'), phoneNumber)
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
 
