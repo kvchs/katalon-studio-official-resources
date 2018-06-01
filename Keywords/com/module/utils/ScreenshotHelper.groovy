@@ -33,21 +33,20 @@ public class ScreenshotHelper {
 		Screenshot screenshot = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, element);
 		ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + "\\ErrorScreenshots\\ErrorScreenshot.png"))
 	}
-	
+
 	@Keyword
 	public boolean compareImage(TestObject object){
 		WebElement element = WebUiCommonHelper.findWebElement(object, 20)
 		WebDriver driver = DriverFactory.getWebDriver();
-		
+
 		BufferedImage expectedImage = ImageIO.read(new File(System.getProperty("user.dir") + "\\ErrorScreenshots\\ErrorScreenshot.png"))
 		Screenshot logoImageScreenshot = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, element);
 		BufferedImage actualImage = logoImageScreenshot.getImage();
-		
+
 		ImageDiffer imgDiff = new ImageDiffer();
 		ImageDiff diff = imgDiff.makeDiff(expectedImage, actualImage);
-		
+
 		//Is different or not.
 		return diff.hasDiff();
 	}
-	
 }
