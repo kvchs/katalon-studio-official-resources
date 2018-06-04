@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Download</name>
+   <tag></tag>
+   <elementGuidId>383f233f-b243-4c20-8304-9f2f8157dd37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='global-nav-download-firefox']/ul[@class='download-list']/li[@class='os_win']/a[@href='/firefox/download/thanks/']/strong[@class='download-title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
