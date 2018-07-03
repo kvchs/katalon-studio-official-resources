@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://docs.katalon.com/display/KD/Install+Chrome+extensions+at+runtime</description>
+   <name>Install Chrome extensions at runtime</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9130c6de-5a18-450b-bab6-cc39a1e05603</testCaseGuid>
+</TestCaseEntity>

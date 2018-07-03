@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestCaseResult,Chrome 67.0.3396.99,,2018-07-03 17:15:40,2018-07-03 17:15:50,9.399s,ERROR
+,,,,,,
+Test Cases/Forum/Mark test status for a Custom Keyword,Chrome 67.0.3396.99,,2018-07-03 17:15:41,2018-07-03 17:15:48,6.971s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.99,,2018-07-03 17:15:41,2018-07-03 17:15:41,0.026s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-03 17:15:41,2018-07-03 17:15:48,6.495s,PASSED
+Statement - to = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(findTestObject('Object Repository/Forum/btn_GoogleSearch')),Chrome 67.0.3396.99,,2018-07-03 17:15:48,2018-07-03 17:15:48,0.022s,PASSED
+forum.VerifyElementPresent.isElementPresent,Chrome 67.0.3396.99,,2018-07-03 17:15:48,2018-07-03 17:15:48,0.092s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.99,,2018-07-03 17:15:48,2018-07-03 17:15:48,0.016s,PASSED

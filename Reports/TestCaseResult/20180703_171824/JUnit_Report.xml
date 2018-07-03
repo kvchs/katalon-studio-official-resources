@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestCaseResult" time="9" tests="1" failures="0" errors="0">
+   <testsuite name="TestCaseResult" tests="1" failures="0" errors="0" time="9" timestamp="2018-07-03 17:18:27" hostname="charleychen - CNCDUW0045.aaxischina.net" id="Test Suites/TestCaseResult">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\TestCaseResult\\20180703_171824"/>
+         <property name="logFiles" value="D:\\Entel\\automation\\katalon-studio-official-resources\\Reports\\TestCaseResult\\20180703_171824\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="charleychen - CNCDUW0045.aaxischina.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="169.254.193.76"/>
+         <property name="sessionId" value="3cd31ed2f8adb952dcea359e235c3df4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Forum/Mark test status for a Custom Keyword" classname="Test Cases/Forum/Mark test status for a Custom Keyword" status="PASSED">
+         <system-out><![CDATA[2018-07-03 17:18:28 - [TEST_CASE][PASSED] - Test Cases/Forum/Mark test status for a Custom Keyword: Test Cases/Forum/Mark test status for a Custom Keyword
+
+2018-07-03 17:18:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ProxySetting.sampleBeforeTestCase(...)' completed.
+
+2018-07-03 17:18:28 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-03 17:18:28 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ProxySetting.sampleBeforeTestCase(...)' completed.
+
+2018-07-03 17:18:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://www.baidu.com'
+
+2018-07-03 17:18:35 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.baidu.com'
+
+2018-07-03 17:18:35 - [TEST_STEP][PASSED] - Statement - to = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Forum/btn_GoogleSearch): Finding Test Object with id 'Object Repository/Forum/btn_GoogleSearch'
+
+2018-07-03 17:18:35 - [TEST_STEP][PASSED] - forum.VerifyElementPresent.isElementPresent: Element is Present
+
+2018-07-03 17:18:36 - [MESSAGE][PASSED] - Element is Present
+
+2018-07-03 17:18:36 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-03 17:18:37 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-03 17:18:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ProxySetting.sampleAfterTestCase(...)' completed.
+
+2018-07-03 17:18:37 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-03 17:18:37 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ProxySetting.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 17:18:27 - [TEST_SUITE][PASSED] - TestCaseResult: Test Cases/Forum/Mark test status for a Custom Keyword]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

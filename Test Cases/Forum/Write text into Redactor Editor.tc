@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://forum.katalon.com/discussion/7659/how-to-create-test-case-to-write-text-into-redactor-editor#latest</description>
+   <name>Write text into Redactor Editor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27ec0025-f3ae-428f-97e7-5d84f1d25af3</testCaseGuid>
+</TestCaseEntity>
